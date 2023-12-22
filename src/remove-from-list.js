@@ -45,7 +45,6 @@ function removeKFromList(l, k) {
 	let sortedList;
 
 	for (let i = arrFromList.length - 1; i >= 0; i--) {
-		console.log(arrFromList[i]);
 		let currentList = new ListNode(arrFromList[i]);
 
 		if (i !== arrFromList.length - 1) {
